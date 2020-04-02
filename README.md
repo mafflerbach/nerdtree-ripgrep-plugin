@@ -1,8 +1,8 @@
-nerdtree-grep-plugin
+nerdtree-ripgrep-plugin
 ====================
 
-A really rough integration of `:grep` with nerdtree. Adds a `'g'` menu item that
-prompts the user for a search pattern to use with `:grep`. `:grep` is run on the
+A really rough integration of `:ripgrep` with nerdtree. Adds a `'g'` menu item that
+prompts the user for a search pattern to use with `:ripgrep`. `:ripgrep` is run on the
 selected dir (using the parent if a file is selected).
 
 Originally written by [scrooloose](https://gist.github.com/scrooloose/205807),
@@ -12,7 +12,7 @@ enhanced by [masaakif](https://gist.github.com/masaakif/414375).
 
 For Pathogen
 
-`git clone https://github.com/MarSoft/nerdtree-grep-plugin.git ~/.vim/bundle/nerdtree-grep-plugin`
+`git clone https://github.com/mafflerbach/nerdtree-ripgrep-plugin.git ~/.vim/bundle/nerdtree-ripgrep-plugin`
 
 Now reload `vim`.
 
@@ -20,18 +20,18 @@ For Vundle
 
 ```
 Plugin 'scrooloose/nerdtree'
-Plugin 'MarSoft/nerdtree-grep-plugin'
+Plugin 'mafflerbach/nerdtree-ripgrep-plugin'
 ```
 
 For NeoBundle
 
 ```
 NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'MarSoft/nerdtree-grep-plugin'
+NeoBundle 'mafflerbach/nerdtree-ripgrep-plugin'
 ```
 
 For Plug
 ```
 Plug 'scrooloose/nerdtree'
-Plug 'MarSoft/nerdtree-grep-plugin'
+Plug 'mafflerbach/nerdtree-ripgrep-plugin'
 ```
