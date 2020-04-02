@@ -35,8 +35,8 @@ function! NERDTreeripgrep()
 
     try
         exec 'silent cd ' . dirnode.path.str()
-        exec 'silent rg -rn ' . pattern . ' .'
-        " exec 'silent ripgrep -rn ' . pattern . ' ' . dirnode.path.str()
+        "exec 'silent Rg -rn ' . pattern . ' .'
+         exec 'silent Rg -rn ' . pattern . ' ' . dirnode.path.str()
     finally
         let &shellpipe = old_shellpipe
     endtry
